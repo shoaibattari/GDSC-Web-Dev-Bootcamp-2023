@@ -7,3 +7,7 @@ Welcome to the GDSC Web Dev Bootcamp 2023! This comprehensive course is designed
 
 [Video Link](https://drive.google.com/file/d/1tTB3AIfmuxohMrCYioV_xKl-Tm960IMi/view).
 
+# 2nd Class Link
+
+[Video Link](https://drive.google.com/file/d/1i04sigOEFNSLNcXEyEK2PfrhdM3BRgmL/view).
+
