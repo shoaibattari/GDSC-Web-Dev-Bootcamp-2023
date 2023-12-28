@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #2a2628; /* Gray */
+  padding: 10px 0;
+  position: sticky;
+  font-weight: 600;
+  font-size: 32px;
+  top: 0;
+  z-index: 100;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+#logo {
+  font-family: Pacifico;
+  font-size: 32px;
+  color: #84f1f0;
+}
+section {
+  height: 70vh; /* Full height of the viewport */
+  padding: 100px;
+  text-align: center;
+  color: white;
+}
+
+#about-me {
+  background-color: #13131f;
+  font-size: 50px;
+}
+#about-me h1 {
+  font-family: cursive;
+}
+#skills {
+  font-family: Pacifico;
+
+  background-color: #84f1f0;
+  font-size: 30px;
+  color: black;
+}
+ul.skills-list {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+li.skill {
+  background-color: #555555;
+  color: white;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 5px;
+}
+#contact {
+  font-size: 30px;
+  font-family: Pacifico;
+
+  background-color: #e74c3c; /* Red */
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+p {
+  font-size: 30px;
+  line-height: 1.6;
+
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.social-icons {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social-icons li {
+  background: #000;
+
+  margin: 0 10px;
+}
+
+.social-icons a {
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+}
+
+footer p {
+  font-size: 15px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+footer {
+  background-color: #333; /* Dark Gray */
+  text-align: center;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Responsive Styles */
+
+@media screen and (max-width: 768px) {
+  section {
+    padding: 50px 10px;
+  }
+  #logo {
+    font-size: 10px;
+  }
+  nav {
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+  #contact {
+    font-size: 10px;
+
+    background-color: #e74c3c; /* Red */
+  }
+  .social-icons {
+    flex-wrap: wrap;
+  }
+
+  .social-icons li {
+    margin: 5px;
+  }
+  #skills {
+    font-size: 15px;
+  }
+  footer {
+    padding: 10px 20px;
+  }
+
+  footer p {
+    font-size: 10px;
+  }
+}
